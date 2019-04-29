@@ -1,4 +1,5 @@
 import { Field, Int, ObjectType } from 'type-graphql'
+import Movie from './Movie'
 
 @ObjectType()
 export default class Actor {
@@ -13,4 +14,8 @@ export default class Actor {
 
   @Field(type => String)
   birth: string
+
+  @Field(type => Movie)
+  movie: Movie
+  
 }
