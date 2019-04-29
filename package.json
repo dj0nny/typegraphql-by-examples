@@ -1,0 +1,15 @@
+{
+  "name": "type-graphql-by-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dj0nny/type-graphql-by-examples.git",
+  "author": "dj0nny",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.13.8",
+    "graphql-yoga": "^1.17.4",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.3",
+    "typescript": "^3.4.5"
+  }
+}
