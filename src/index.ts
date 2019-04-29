@@ -1,7 +1,7 @@
 import { GraphQLServer } from 'graphql-yoga'
 import 'reflect-metadata'
 import { buildSchema } from 'type-graphql'
-import MovieResolver from '../src/resolvers/MovieResolver'
+import MovieResolver from './resolvers/MovieResolver'
 
 async function bootstrap() {
   const schema = await buildSchema({
@@ -15,3 +15,5 @@ async function bootstrap() {
   
   server.start(() => console.log(`Server's up at port 4000`))
 }
+
+bootstrap()
