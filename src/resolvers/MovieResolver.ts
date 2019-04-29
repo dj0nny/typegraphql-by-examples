@@ -13,4 +13,10 @@ export default class {
   movieByYear(@Arg('year') year: number): MovieData | undefined {
     return movies.find(movie => movie.year === year)
   }
+
+  @Query(returns => [Movie])
+  fetchMovies(): Movie[] {
+    return movies;
+  }
+
 }
