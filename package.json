@@ -1,5 +1,6 @@
 {
   "name": "type-graphql-by-examples",
+  "description": "A repository for showing the main features of TypeGraphQL",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/dj0nny/type-graphql-by-examples.git",
