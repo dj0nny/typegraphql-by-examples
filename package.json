@@ -6,7 +6,8 @@
   "repository": "https://github.com/dj0nny/type-graphql-by-examples.git",
   "author": "dj0nny",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "prod": "node ./dist/index.js"
   },
   "license": "MIT",
   "dependencies": {
