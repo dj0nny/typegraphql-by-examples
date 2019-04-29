@@ -17,8 +17,5 @@ export default class Movie {
 
   @Field(type => String)
   playbill: string
-
-  @Field(type => [Actor])
-  actors: Actor[]
-
+  
 }
