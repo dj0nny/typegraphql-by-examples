@@ -11,4 +11,4 @@ branches:
 
 script:
   - yarn install
-  - yarn run prod
+  - yarn run build
