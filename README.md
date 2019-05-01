@@ -113,7 +113,7 @@ The queries described in the previous section can be run using these statements:
 
 #### personByName Query
 
-```json
+```javascript
 {
   personByName(name: 'John') {
     age
@@ -125,7 +125,7 @@ The queries described in the previous section can be run using these statements:
 
 #### getPeople Query
 
-```json
+```javascript
 {
   getPeople() {
     name
@@ -138,7 +138,7 @@ The queries described in the previous section can be run using these statements:
 
 #### markAsWorking Mutation
 
-```json
+```javascript
 {
   markAsWorking(name: 'John') {
     age
