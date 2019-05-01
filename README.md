@@ -16,9 +16,9 @@ For this project you need [__Node__](https://nodejs.org/en/) installed on your m
 
 You can clone this repository using __Git__:
 ```bash
-git clone https://github.com/dj0nny/type-graphql-by-examples.git
+git clone https://github.com/dj0nny/typegraphql-by-examples.git
 ```
-Or download the repository [here](https://github.com/dj0nny/type-graphql-by-examples/archive/develop.zip)
+Or download the repository [here](https://github.com/dj0nny/typegraphql-by-examples/archive/develop.zip)
 
 Open a terminal and type, inside the root directory:
 ```bash
