@@ -1,5 +1,9 @@
 # typegraphql-by-examples
 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![npm version](https://badge.fury.io/js/typescript.svg)](https://badge.fury.io/js/typescript)
+<img src="https://img.shields.io/badge/types-TypeScript-blue.svg">
+
 > Explore the main features of TypeGraphQL
 
 ## Why GraphQL? Why TypeScript?
