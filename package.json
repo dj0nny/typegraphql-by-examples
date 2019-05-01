@@ -7,13 +7,15 @@
   "author": "dj0nny",
   "scripts": {
     "tsc": "tsc",
-    "prod": "node ./dist/index.js"
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
   },
   "license": "MIT",
   "dependencies": {
     "@types/node": "^11.13.8",
     "graphql-yoga": "^1.17.4",
     "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.0.0-pre.32",
     "type-graphql": "^0.17.3",
     "typescript": "^3.4.5"
   }
