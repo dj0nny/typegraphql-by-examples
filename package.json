@@ -8,6 +8,7 @@
   "scripts": {
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "build" : "tsc",
     "prod": "tsc && node ./build/index.js"
   },
   "license": "MIT",
