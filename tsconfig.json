@@ -8,7 +8,7 @@
       "esnext.asynciterable"
     ],
     "moduleResolution": "node",
-    "outDir": "./dist",
+    "outDir": "./build",
     "strict": true,
     "strictPropertyInitialization": false,
     "sourceMap": true,

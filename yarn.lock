@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/aws-lambda@^8.10.24":
+  version "8.10.24"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.24.tgz#89a20cd91957322e26dbfea7f651b970460c8c0c"
+  integrity sha512-9F70bcb2oBGZUZCyisE1Ap3vwgt04uiSmr4s9mhQf89vBrttgraBs2Rc8l9YrKiemCndCH7wxnYNWk5qEuv6rA==
+
 "@types/body-parser@*":
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.17.0.tgz#9f5c9d9bd04bb54be32d5eb9fc0d8c974e6cf58c"
@@ -107,6 +112,14 @@
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
   integrity sha512-7NQmHra/JILCd1QqpSzl8+mJRc8ZHz3uDm8YV1Ks9IhK0epEiTw8aIErbvH9PI+6XbqhyIQy3462nEsn7UVzjQ==
+
+"@types/ws@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-6.0.1.tgz#ca7a3f3756aa12f62a0a62145ed14c6db25d5a28"
+  integrity sha512-EzH8k1gyZ4xih/MaZTXwT2xOkPiIMSrhQ9b8wrlX88L0T02eYsddatQlwVFlEPyEqV0ChpdpNnE51QPH6NVT4Q==
+  dependencies:
+    "@types/events" "*"
+    "@types/node" "*"
 
 "@types/zen-observable@^0.5.3":
   version "0.5.4"
