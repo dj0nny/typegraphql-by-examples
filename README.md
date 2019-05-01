@@ -1,8 +1,9 @@
 # typegraphql-by-examples
 
+[![Build Status](https://travis-ci.org/dj0nny/typegraphql-by-examples.svg?branch=develop)](https://travis-ci.org/dj0nny/typegraphql-by-examples)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 [![npm version](https://badge.fury.io/js/typescript.svg)](https://badge.fury.io/js/typescript)
-<img src="https://img.shields.io/badge/types-TypeScript-blue.svg">
+[![tyescript](https://img.shields.io/badge/types-TypeScript-blue.svg)](https://img.shields.io/badge/types-TypeScript-blue.svg)
 
 > Explore the main features of TypeGraphQL
 
@@ -50,7 +51,7 @@ yarn run prod
 
 ## TypeGraphQL Overview
 
-TypeGraphQL is an implementation of GraphQL with TypeScript. This section it assumes that you have a basic understaning of GraphQL and Typescript. 
+TypeGraphQL is an implementation of GraphQL with TypeScript. This section it assumes that you have a basic understanding of GraphQL and Typescript. 
 
 ### Schemas
 
@@ -70,12 +71,12 @@ export default class Person {
 }
 ```
 
-* The `@ObjectType()` decorator is used for describing a TypeGraphQL schema
-* The `@Field` decorator is used for described a field of a TypeGraphQL schema
+* The `@ObjectType()` decorator is used for creating a TypeGraphQL schema
+* The `@Field` decorator is used for describing a field of a TypeGraphQL schema
 
 ### Resolvers
 
-A resolver is used for creating queries, mutations and field resolvers using a simple class-based syntax
+A resolver is used for creating queries, mutations and field resolvers, using a simple class-based syntax
 
 ```typescript
 @Resolver(of => Person)
@@ -152,13 +153,20 @@ The queries described in the previous section can be run using these statements:
 
 ```
 
-
-
 ## Built With
 
 * [TypeScript](https://www.typescriptlang.org/) - Javascript based-type language
 * [TypeGraphQL](https://typegraphql.ml/) - A TypeScript integration of GraphQL
 * [NodeJS](https://nodejs.org/en/) - A Javascript runtime
+
+## Next Version
+
+* ✔️ Add basic schema
+* ✔️ Add resolver with queries
+* 🔲 Add mutations
+* 🔲 Add schema with custom types
+* 🔲 Add complex resolvers
+
 
 ## Contributing
 
